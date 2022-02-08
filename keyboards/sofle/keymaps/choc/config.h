@@ -15,11 +15,12 @@
 // RGB Configuration
 // The pin connected to the data pin of the LEDs
 #define RGB_DI_PIN D3
-#define RGBLED_SPLIT { 29, 29 }
-#define DRIVER_LED_TOTAL 29
+#define RGB_MATRIX_SPLIT { 29, 29 }
+#define DRIVER_LED_TOTAL 58
 
+#define SPLIT_TRANSPORT_MIRROR
 #define RGB_MATRIX_KEYPRESSES
-#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_BREATHING
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_SOLID_REACTIVE_WIDE
 // limits maximum brightness of LEDs to 150 out of 255. Higher may cause the controller to crash.
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 75
 #define RGB_MATRIX_HUE_STEP 8
