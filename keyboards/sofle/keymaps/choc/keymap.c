@@ -194,8 +194,6 @@ led_config_t g_led_config = { {
 
 #endif
 
-#endif
-
 #ifdef OLED_DRIVER_ENABLE
 
 static void render_logo(void) {
